@@ -1,0 +1,75 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+
+li{
+ list-style: none;
+ display: inline;
+ padding-left: 110px;
+}
+
+body{
+    background-image: url(imagens/fundo.png);
+    margin: 0;
+}
+
+img{
+    width: 20%;
+} 
+
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu a:hover{
+    color: green;
+}
+
+.banner{
+    padding: 200px;
+    background-size: cover;
+    z-index: -1;
+    background-repeat: no-repeat;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.organizador {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    width: 250px;
+    height: 250px;
+    margin-right: 100px;
+ }
+
+ p {
+     margin-top: 50px;
+ }
+.feedbacks {
+    background-color: black;
+     color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    width: 250px;
+    height: 250px;
+    margin-right: 100px;
+}
+
+.feedbacks1 {
+    background-image: url("imagens/nome.jpg");
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+} 
+
+.grupo {
+    display: flex;
+}
